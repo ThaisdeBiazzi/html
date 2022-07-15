@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de tela</title>
 
     <style>
         body{
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /*shorthand -  background
+                color > image > position > repeat > [size]
+                >attachment
+
+                Exemplo: Simplificado.
+
+                background : black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+                - As vezes se o fundo da imagem não funcionar vc deve acrescentar ...
+                 background-size: cover; - aqui e tirar da parte de cima
+            */
         }
 
         main{
             background-color: white;
-            width: 400px;
+            width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue; 
@@ -31,6 +43,10 @@
 <body>
     <main>
         <h1>Teste de Imagem</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ea quam totam impedit quibusdam delectus autem officia nobis? Iure illo quae numquam voluptatum laborum vero qui officia. Odio, nisi molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellat aliquam quasi obcaecati aut aliquid, officia voluptatem! Et aspernatur unde ad consequuntur suscipit quae, aliquid reprehenderit earum, vitae eos nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque voluptate quas id provident neque cumque vero odit doloribus aperiam. Voluptates tempora totam fuga praesentium natus ad nisi eligendi aliquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ea quam totam impedit quibusdam delectus autem officia nobis? Iure illo quae numquam voluptatum laborum vero qui officia. Odio, nisi molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellat aliquam quasi obcaecati aut aliquid, officia voluptatem! Et aspernatur unde ad consequuntur suscipit quae, aliquid reprehenderit earum, vitae eos nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque voluptate quas id provident neque cumque vero odit doloribus aperiam. Voluptates tempora totam fuga praesentium natus ad nisi eligendi aliquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ea quam totam impedit quibusdam delectus autem officia nobis? Iure illo quae numquam voluptatum laborum vero qui officia. Odio, nisi molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellat aliquam quasi obcaecati aut aliquid, officia voluptatem! Et aspernatur unde ad consequuntur suscipit quae, aliquid reprehenderit earum, vitae eos nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque voluptate quas id provident neque cumque vero odit doloribus aperiam. Voluptates tempora totam fuga praesentium natus ad nisi eligendi aliquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ea quam totam impedit quibusdam delectus autem officia nobis? Iure illo quae numquam voluptatum laborum vero qui officia. Odio, nisi molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellat aliquam quasi obcaecati aut aliquid, officia voluptatem! Et aspernatur unde ad consequuntur suscipit quae, aliquid reprehenderit earum, vitae eos nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque voluptate quas id provident neque cumque vero odit doloribus aperiam. Voluptates tempora totam fuga praesentium natus ad nisi eligendi aliquam.</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ea quam totam impedit quibusdam delectus autem officia nobis? Iure illo quae numquam voluptatum laborum vero qui officia. Odio, nisi molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellat aliquam quasi obcaecati aut aliquid, officia voluptatem! Et aspernatur unde ad consequuntur suscipit quae, aliquid reprehenderit earum, vitae eos nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque voluptate quas id provident neque cumque vero odit doloribus aperiam. Voluptates tempora totam fuga praesentium natus ad nisi eligendi aliquam.</p>
     </main>
 
